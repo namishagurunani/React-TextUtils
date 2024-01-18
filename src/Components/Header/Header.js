@@ -16,7 +16,7 @@ const Header = () => {
     <header>
       <nav className="nav_left">
         <Link to="/">
-          <h1>📝 TextUtils</h1>
+          <h1>📋 TextUtils</h1>
         </Link>
       </nav>
       <ul className={showHamburger ? "mobile-nav-menu" :"nav-menu"}>
