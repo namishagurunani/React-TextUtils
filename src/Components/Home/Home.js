@@ -73,7 +73,7 @@ const Home = () => {
             </p>
           </div>
           <div className="preview">
-            <h2>Preview Document</h2>
+            <h2 style={{textAlign:"center"}}>Preview Document</h2>
             <textarea value={state.text} readOnly></textarea>
           </div>
         </div>
